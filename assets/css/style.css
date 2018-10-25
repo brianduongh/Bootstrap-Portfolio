@@ -47,11 +47,33 @@ nav {
   font-size: 2rem;
   color: white;
 }
-/* Middle Section */
 
+.navbar-light .navbar-brand {
+  color: white;
+}
+/* Middle Section */
+.portfolio .text-block {
+  position: absolute;
+  background-color: teal;
+  text-align: center;
+  width: 95%;
+  color: white;
+  top: 60%;
+  padding: 10px 0px;
+}
+
+.portfolio img {
+  margin: 10px;
+}
+
+.btn {
+  color: white;
+  background: #4aaaa5;
+  border-radius: 0;
+}
 /* Sticky Footer */
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 20px 0 5px 0;
